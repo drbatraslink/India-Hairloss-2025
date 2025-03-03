@@ -680,7 +680,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 #drbatras_common_section_slider .owl-nav{text-align:center!important;margin-top:5px;top:0;right:0;position:relative}
 #drbatras_common_section_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
-.common_drbatras_section_cls .common-readmore-link{padding-left:22px;padding-bottom:10px;position:absolute;bottom:0;right:0;display:block;width:100%;text-align:left;color:#2876a9;font-weight:700;font-size:18px;padding-top:21px;background-image:linear-gradient(to bottom,#ffffffad,#fff);cursor:pointer}
+.common_drbatras_section_cls .common-readmore-link{padding-left:22px;padding-bottom:10px;position:absolute;bottom:0;right:0;display:block;width:100%;text-align:left;color:#2876a9;font-weight:700;font-size:18px;padding-top:21px;background-image:linear-gradient(to bottom,#ffffffe3,#fff);cursor:pointer}
 .common_drbatras_section_cls .common-readmore-link.expand{position:relative;background-image:none;padding-top:10px;padding-bottom:10px}
 .common_drbatras_section_cls .common-readmore-link:after{content:"Read More"}
 .common_drbatras_section_cls .common-readmore-link.expand:after{content:"Read Less"}
@@ -694,10 +694,11 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .common_drbatras_section_cls .slideshow img:nth-child(2){animation:fade 9s infinite 4s}
 .common_drbatras_section_cls .slideshow img:nth-child(3){animation:fade 9s infinite 8s}
 .common_drbatras_section_cls .slideshow img:nth-child(4){animation:fade 9s infinite 12s}
-.common_drbatras_section_cls h3{margin-top:10px;font-size:21px;line-height:normal;color:#212121;font-weight:500}
-.common_drbatras_section_cls p{font-size:16px;line-height:normal;color:#636363; margin-bottom: 0}
+.common_drbatras_section_cls h3{margin-top:10px;font-size:21px;line-height:normal;color:#212121;font-weight:600}
+.common_drbatras_section_cls p{font-size:16px;line-height:22px;color:#636363; margin-bottom: 0;font-weight: 400}
+.common_drbatras_section_cls p strong{color: #212121;font-weight: 600}
 .common_drbatras_section_cls .box-for-treatment-sec{margin:12px;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
 .common_drbatras_section_cls .ai-box-content{padding:10px 20px;height:auto}
-.common_drbatras_section_cls .box-for-treatment-sec{position:relative;max-height:580px;height:580px;overflow:hidden;transition:max-height .15s ease-out}
+.common_drbatras_section_cls .box-for-treatment-sec{position:relative;max-height:550px;height:550px;overflow:hidden;transition:max-height .15s ease-out}
 .common_drbatras_section_cls .box-for-treatment-sec.expand{max-height:5000px!important;height:auto;transition:max-height .35s ease-in-out}
 

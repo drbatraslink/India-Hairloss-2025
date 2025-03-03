@@ -126,23 +126,23 @@
                 <div class="slideshow"> <img src="images/common-doctor-img.webp" alt="treatment-model-01" class="img-fluid" width="360" height="257" loading="lazy"> </div>
                 <div class="ai-box-content align-self-center">
                   <h3>Dr&nbsp;Batra’s<sup>®</sup> Expert Doctors</h3>
-                  <p class="mb-3"> At Dr&nbsp;Batra’s<sup>®</sup>, our 300+ qualified doctors (MD, DVD, BHMS) bring 400+ years of combined experience, successfully treating 780,000+ hair patients worldwide. Our doctors are trained to provide expert care for various hair concerns. </p>
-                  <p> Our doctor offers empathetic support alongside effective treatments. With Dr&nbsp;Batra’s<sup>®</sup>, you choose a team dedicated to excellence, innovation, and personalised care. </p>
+                  <p class="mb-3">At <strong>Dr&nbsp;Batra’s<sup>®</sup></strong>, our <strong>300+ qualified doctors</strong> (MD, DVD, BHMS) bring <strong>400+ years of combined experience</strong>, successfully treating all hair concerns. </p>
+                  <p> Our doctor offers <strong>empathetic support</strong> alongside effective treatments. With <strong>Dr&nbsp;Batra’s<sup>®</sup></strong>, you choose a team dedicated to <strong>excellence, innovation, and personalised care</strong>. </p>
                 </div>
                 <!-- <span class="common-readmore-link"></span>  --></div>
               <div class="box-for-treatment-sec">
                 <div class="slideshow"> <img src="images/01-clinic.webp" alt="treatment-model-01" class="img-fluid" width="360" height="257" loading="lazy"> <img src="images/02-clinic.webp" alt="treatment-model-01" class="img-fluid" width="360" height="257" loading="lazy"> <img src="images/03-clinic.webp" alt="treatment-model-01" class="img-fluid" width="360" height="257" loading="lazy"> <img src="images/04-clinic.webp" alt="treatment-model-01" class="img-fluid" width="360" height="257" loading="lazy"> </div>
                 <div class="ai-box-content align-self-center">
                   <h3>Experience the Best Hair Clinic Near You</h3>
-                  <p class="mb-3"> With 200+ state-of-the-art clinics across India, Dr&nbsp;Batra’s<sup>®</sup> provides expert-led hair treatments in a professional, spacious, and hygienic environment. Our clinics are designed to offer comfort and efficiency, ensuring every patient receives the highest standard of care. </p>
-                  <p> Equipped with advanced technology, our clinics enable accurate diagnosis and effective, non-surgical treatments. With easily accessible locations nationwide, getting expert hair care in a modern, well-maintained setting has never been easier. </p>
+                  <p class="mb-3">With <strong>200+ clinics that are easily accessible</strong> across India, <strong>Dr&nbsp;Batra’s<sup>®</sup></strong> provides <strong>expert-led hair treatments</strong> in a <strong>professional, spacious, and hygienic environment.</strong> </p>
+                  <p> Our clinics are equipped with <strong>advanced technology</strong> that offers <strong>comfort and efficiency</strong>, ensuring every patient receives the highest standard of care.</p>
                 </div> <span class="common-readmore-link"></span> </div>
               <div class="box-for-treatment-sec">
                 <div class="slideshow"> <img src="images/01-treatment.webp" alt="treatment-model-01" class="img-fluid" width="360" height="257" loading="lazy"> <img src="images/02-treatment.webp" alt="treatment-model-01" class="img-fluid" width="360" height="257" loading="lazy"> <img src="images/03-treatment.webp" alt="treatment-model-01" class="img-fluid" width="360" height="257" loading="lazy"> </div>
                 <div class="ai-box-content align-self-center">
                   <h3>Proven International Hair Fall Treatments</h3>
-                  <p class="mb-3"> At Dr&nbsp;Batra’s<sup>®</sup>, our hair treatments combine homeopathy, trichology, and advanced technology to treat hair loss from the inside out effectively. Homeopathy treats the root cause, while aesthetic treatments like XOGEN, groHair and STM provide faster, visible results. Our treatments are safe, non-invasive, and completely side-effect-free, ensuring a holistic and long-term solution. </p>
-                  <p> With a focus on personalised care, patients experience visible results within 6-10 sessions. Trusted by over 7.8 lakh happy patients, our expert-led approach delivers proven and lasting hair regrowth solutions. </p>
+                  <p class="mb-3">At <strong>Dr&nbsp;Batra’s<sup>®</sup></strong>, our hair treatments combine <strong>homeopathy, trichology, and advanced technology</strong> to <strong>effectively treat hair loss inside out</strong>. Our <strong>treatments, like XOGEN, groHair, and STM, provide faster, visible results within 6-10 sessions</strong>. </p>
+                  <p>With a focus on personalised care, our treatments are <strong>safe, non-surgical, and side-effect-free</strong>, ensuring a holistic and long-term solution. </p>
                 </div> <span class="common-readmore-link"></span> </div>
             </div>
           </div>
@@ -903,62 +903,57 @@ $(".readmore-link").click( function(e) {
     $(".owl-nav .owl-prev").attr("role", "button"), $(".owl-nav .owl-next").attr("role", "button")
   });
   </script>
-    <script>
+   
+<script>
   var owl = $("#drbatras_common_section_slider").owlCarousel({
     loop: !0,
     responsiveClass: !0,
     nav: !0,
     margin: 0,
-    // autoplay: !0,
     autoplay: false,
     autoplayTimeout: 4e3,
     smartSpeed: 400,
     navText: ["<img src='images/previmage.webp'>", "<img src='images/nextimage.webp'>"],
     responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      1024: {
-        items: 2
-      },
-      1200: {
-        items: 3
-      }
+      0: { items: 1 },
+      600: { items: 1 },
+      768: { items: 2 },
+      1024: { items: 2 },
+      1200: { items: 3 }
     }
   });
-  </script>
-   <script>
-    
-$(".common-readmore-link").click( function(e) {
-  // record if our text is expanded
-  var isExpanded =  $(e.target).hasClass("expand");
-  
-  //close all open paragraphs
-  $(".box-for-treatment-sec.expand").removeClass("expand");
-  $(".common-readmore-link.expand").removeClass("expand");
-  
-  // if target wasn't expand, then expand it
-  if (!isExpanded){
-    $( e.target ).parent( ".box-for-treatment-sec" ).addClass( "expand" );
-    $(e.target).addClass("expand");  
-  } 
-});
-  </script>
-  <script type="text/javascript">
-    // Only apply fade animation if more than one image
-$(".common_drbatras_section_cls .slideshow").each(function() {
-  var images = $(this).find("img");
-  if (images.length === 1) {
-    images.css({ opacity: 1, position: "relative", animation: "none" });
-  }
-});
-  </script>
+
+  // Read More / Read Less functionality
+  $(".common-readmore-link").click(function(e) {
+    var isExpanded = $(e.target).hasClass("expand");
+
+    // Close all open sections
+    $(".box-for-treatment-sec.expand").removeClass("expand");
+    $(".common-readmore-link.expand").removeClass("expand");
+
+    // Expand the clicked section if it wasn't already expanded
+    if (!isExpanded) {
+      $(e.target).parent(".box-for-treatment-sec").addClass("expand");
+      $(e.target).addClass("expand");
+    }
+  });
+
+  // Close expanded section on slide change
+  owl.on('changed.owl.carousel', function() {
+    $(".box-for-treatment-sec.expand").removeClass("expand");
+    $(".common-readmore-link.expand").removeClass("expand");
+  });
+
+  // Only apply fade animation if more than one image
+  $(".common_drbatras_section_cls .slideshow").each(function() {
+    var images = $(this).find("img");
+    if (images.length === 1) {
+      images.css({ opacity: 1, position: "relative", animation: "none" });
+    }
+  });
+</script>
+
+
 </body>
 
 </html>
